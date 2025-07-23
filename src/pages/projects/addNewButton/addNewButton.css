@@ -1,0 +1,24 @@
+.add-new-button {
+  background-color: #1a1a1a;
+  color: #ccc;
+  border: 1px dashed #555;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.add-new-button:hover {
+  background-color: #232323;
+  border-color: #777;
+  color: #fff;
+}
+
+.add-icon {
+  font-size: 1rem;
+  color: #888;
+}

@@ -1,0 +1,45 @@
+.day-timeline-view {
+  flex: 1;
+  max-width: 400px;
+  padding: 1rem;
+  background-color: #f9fafb;
+  border-left: 2px solid #e5e7eb;
+  overflow-y: auto;
+}
+
+.timeline-hour-block {
+  display: flex;
+  align-items: flex-start;
+  padding: 0.25rem 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.hour-label {
+  width: 80px;
+  font-weight: bold;
+  font-size: 0.875rem;
+  color: #1f2937;
+}
+
+.hour-events {
+  flex: 1;
+}
+
+.timeline-event {
+  background-color: #e0f2fe;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  margin-bottom: 0.25rem;
+  font-size: 0.85rem;
+}
+
+.timeline-pillar {
+  font-style: italic;
+  color: #555;
+  margin-left: 0.5rem;
+}
+
+.no-event-placeholder {
+  color: #cbd5e1;
+  font-size: 0.75rem;
+}

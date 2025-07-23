@@ -1,0 +1,40 @@
+.subtask-tree {
+  padding: 1rem;
+  border-left: 2px solid #444;
+  margin-left: 1rem;
+  font-size: 0.95rem;
+}
+
+.subtask-item {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+  gap: 0.5rem;
+}
+
+.subtask-input {
+  background-color: #1e1e1e;
+  border: 1px solid #444;
+  color: #ddd;
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.subtask-add {
+  margin-top: 0.5rem;
+  color: #aaa;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.subtask-add:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.subtask-children {
+  margin-left: 1rem;
+  border-left: 1px dashed #333;
+  padding-left: 0.75rem;
+}
